@@ -1,9 +1,10 @@
 import "./App.css";
+import Switch from "./Switch/App";
 
 function App() {
   return (
-    <div className="App">
-      <h1>hello</h1>
+    <div className="main-container">
+    <Switch />
     </div>
   );
 }
